@@ -53,28 +53,37 @@ const RestaurantDetails = () => {
     if (val === "3star") {
       let result = res
         .filter((rati) => {
-          return rati.rating <= 3.0;
+          return rati.rating >= 3.0;
         })
         .sort((a, b) => {
-          return b.rating - a.rating;
+          return a.cost_for_one - b.cost_for_one;
+        })
+        .sort((a, b) => {
+          return a.rating - b.rating;
         });
       setData(result);
     } else if (val === "4star") {
       let result = res
         .filter((rati) => {
-          return rati.rating <= 4.0;
+          return rati.rating >= 4.0;
         })
         .sort((a, b) => {
-          return b.rating - a.rating;
+          return a.cost_for_one - b.cost_for_one;
+        })
+        .sort((a, b) => {
+          return a.rating - b.rating;
         });
       setData(result);
     } else if (val === "5star") {
       let result = res
         .filter((rati) => {
-          return rati.rating <= 5.0;
+          return rati.rating >= 5.0;
         })
         .sort((a, b) => {
-          return b.rating - a.rating;
+          return a.cost_for_one - b.cost_for_one;
+        })
+        .sort((a, b) => {
+          return a.rating - b.rating;
         });
       setData(result);
     }
@@ -85,27 +94,39 @@ const RestaurantDetails = () => {
   const checkPayment = async (val) => {
     let res = await fetchFun();
     if (val === "card") {
-      let result = res.filter((item) => {
-        return item.payment_method.card === true;
-      });
+      let result = res
+        .filter((item) => {
+          return item.payment_method.card === true;
+        })
+        .sort((a, b) => {
+          return a.rating - b.rating;
+        });
       setData(result);
     } else if (val === "cash") {
-      let result = res.filter((item) => {
-        return item.payment_method.cash === true;
-      });
+      let result = res
+        .filter((item) => {
+          return item.payment_method.cash === true;
+        })
+        .sort((a, b) => {
+          return a.rating - b.rating;
+        });
       setData(result);
     }
     if (val === "upi") {
-      let result = res.filter((item) => {
-        return item.payment_method.upi === true;
-      });
+      let result = res
+        .filter((item) => {
+          return item.payment_method.upi === true;
+        })
+        .sort((a, b) => {
+          return a.rating - b.rating;
+        });
       setData(result);
     } else if (val === "all") {
       let result = res.filter((item) => {
         return (
           item.payment_method.upi === true &&
-          item.payment_method.cash &&
-          item.payment_method.card
+          item.payment_method.cash === true &&
+          item.payment_method.card === true
         );
       });
       setData(result);
@@ -118,12 +139,12 @@ const RestaurantDetails = () => {
         {/* <h1 className="heading">Hunger Food</h1> */}
         <div className="btndiv">
           <div>
-            <h3>sorting by price</h3>
+            <h3>Price</h3>
             <button onClick={() => handleSort("asc")}>sort Low to High</button>
             <button onClick={() => handleSort("dsc")}>sort High to Low</button>
           </div>
           <div>
-            <h3>rating</h3>
+            <h3>Rating</h3>
             <button onClick={() => handleRating("3star")}>3 star</button>
             <button onClick={() => handleRating("4star")}>4 star</button>
             <button onClick={() => handleRating("5star")}>5 star</button>
@@ -160,10 +181,16 @@ const RestaurantDetails = () => {
                   </span>
 
                   <div>
-                    Payment Accepted
-                    <span>{item.payment_method.card ? " card" : ""}</span>
-                    <span>{item.payment_method.cash ? " cash" : ""}</span>
-                    <span>{item.payment_method.upi ? " upi" : ""}</span>
+                    <p className="payhead">Payment Accepted</p>
+                    <span className="payspan">
+                      {item.payment_method.card ? " card" : ""}
+                    </span>
+                    <span className="payspan">
+                      {item.payment_method.cash ? " cash" : ""}
+                    </span>
+                    <span className="payspan">
+                      {item.payment_method.upi ? " upi" : ""}
+                    </span>
                   </div>
                 </div>
                 <div className="rating">

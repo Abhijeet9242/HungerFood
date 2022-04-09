@@ -7,7 +7,8 @@
 .container{
     /* border:1px solid red; */
     padding: 10px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
+    background-color: #476072;
 }
 .container > h1{
     text-align: center;
@@ -25,15 +26,22 @@
 }
 .box{
     width:300px;
-    height:180px;
+    height:190px;
    /* border:1px solid yellow; */
    display: flex;
    justify-content: space-between;
    margin: 20px;
-   background-color: wheat;
+   background-color: #EEEEEE;
+   cursor: pointer;
+   border-radius: 5px;
   
    
 }
+.box:hover {
+    transform: scale(1.06);
+    box-shadow: 10px 5px 5px wheat;
+}
+
 .boximg{
     width:27%;
     height:150px;
@@ -97,13 +105,32 @@
 
 .btndiv{
     text-align: center;
-}
-/* .btndiv > button{
     padding:4px;
-    background-color:tomato;
+    background-color:#79BAC1;
     color:white;
     font-size: 14px;
     border-radius: 6px;
     margin-top: 20px;
     margin-bottom: 20px;
-} */
+}
+.btndiv > div > button{
+    background-color: #525E75;
+    padding: 5px 9px;
+    margin:4px 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #F1DDBF;
+}
+.btndiv > div > button:hover{
+    box-shadow: 5px 2px 1px whitesmoke;
+}
+.btndiv > div > h3{
+    color:#FFD36E
+}
+.payhead{
+    color:#525E75;
+    margin-top: 3px;
+}
+.payspan{
+    color:#A64452
+}
