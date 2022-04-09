@@ -1,0 +1,11 @@
+.nav{
+    width:100%;
+    background-color: navy;
+    height:50px;
+   
+}
+.nav > h1{
+    text-align: center;
+    color: white;
+}
+

@@ -1,0 +1,304 @@
+{
+  "fooddata": [
+    {
+      "restaurant_name": "Meenakshi",
+      "image": "https://b.zmtcdn.com/data/pictures/2/18806832/677a7f69650910fb483deab17901a5b4.jpg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 3.0,
+      "votes": 756,
+      "cost_for_one": 600,
+      "cost_for_two": 1100,
+      "payment_method": {
+        "card": true,
+        "cash": true,
+        "upi": true
+      },
+      "review": 145
+    },
+    {
+      "restaurant_name": "kaveri",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/4/19595004/e86829a91aec308023f7ce328d813b13.jpeg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian", "veg"],
+      "rating": 3.2,
+      "votes": 56,
+      "cost_for_one": 500,
+      "cost_for_two": 900,
+      "payment_method": {
+        "card": true,
+        "cash": false,
+        "upi": true
+      },
+      "review": 150
+    },
+    {
+      "restaurant_name": "foodplaza",
+      "image": "https://b.zmtcdn.com/data/reviews_photos/a4d/40a35344734d1100c43c7bd029c86a4d_1575392041.jpg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 3.4,
+      "votes": 1756,
+      "cost_for_one": 900,
+      "cost_for_two": 1700,
+      "payment_method": {
+        "card": false,
+        "cash": true,
+        "upi": false
+      },
+      "review": 1145
+    },
+    {
+      "restaurant_name": "milan",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/0/19630630/9567dd2ae737923cb44c0f6e3af78306.jpg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 3.6,
+      "votes": 886,
+      "cost_for_one": 1000,
+      "cost_for_two": 1900,
+      "payment_method": {
+        "card": false,
+        "cash": false,
+        "upi": true
+      },
+      "review": 45
+    },
+    {
+      "restaurant_name": "shivam",
+      "image": "https://b.zmtcdn.com/data/reviews_photos/865/049469fff8fb6d45572c79b54bbe6865_1607960130.jpg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian", "contiental"],
+      "rating": 3.8,
+      "votes": 96,
+      "cost_for_one": 300,
+      "cost_for_two": 500,
+      "payment_method": {
+        "card": true,
+        "cash": true,
+        "upi": true
+      },
+      "review": 1459
+    },
+    {
+      "restaurant_name": "morya",
+      "image": "https://b.zmtcdn.com/data/collections/0b77b6d90a667897f62c6b87652ef12d_1626262975.jpg?output-format=webp",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 4.0,
+      "votes": 300,
+      "cost_for_one": 750,
+      "cost_for_two": 1300,
+      "payment_method": {
+        "card": false,
+        "cash": true,
+        "upi": false
+      },
+      "review": 145
+    },
+    {
+      "restaurant_name": "harmony",
+      "image": "https://b.zmtcdn.com/data/pictures/8/20056888/9c37751eb8984e6f23a2ba030c24fc46.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 4.2,
+      "votes": 756,
+      "cost_for_one": 1200,
+      "cost_for_two": 2200,
+      "payment_method": {
+        "card": true,
+        "cash": false,
+        "upi": true
+      },
+      "review": 145
+    },
+    {
+      "restaurant_name": "pama",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/6/18672816/24e53bdd738ae019eab1eaa03dafe9b1.jpeg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 4.4,
+      "votes": 16,
+      "cost_for_one": 100,
+      "cost_for_two": 150,
+      "payment_method": {
+        "card": true,
+        "cash": true,
+        "upi": true
+      },
+      "review": 45
+    },
+    {
+      "restaurant_name": "sherepunjab",
+      "image": "https://b.zmtcdn.com/data/pictures/4/19294864/4e66da306f49cc1cf82bfb386b2e2513.jpg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 4.6,
+      "votes": 116,
+      "cost_for_one": 450,
+      "cost_for_two": 800,
+      "payment_method": {
+        "card": true,
+        "cash": false,
+        "upi": true
+      },
+      "review": 95
+    },
+    {
+      "restaurant_name": "bluediamond",
+      "image": "https://b.zmtcdn.com/data/pictures/4/18787924/afe44a03ecd0fc3f3d89f151d95604fb.jpg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 4.8,
+      "votes": 568,
+      "cost_for_one": 850,
+      "cost_for_two": 1500,
+      "payment_method": {
+        "card": false,
+        "cash": true,
+        "upi": false
+      },
+      "review": 556
+    },
+    {
+      "restaurant_name": "Belcanto",
+      "image": "https://b.zmtcdn.com/data/pictures/2/18806832/677a7f69650910fb483deab17901a5b4.jpg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 4.9,
+      "votes": 756,
+      "cost_for_one": 900,
+      "cost_for_two": 1700,
+      "payment_method": {
+        "card": true,
+        "cash": true,
+        "upi": true
+      },
+      "review": 1452
+    },
+    {
+      "restaurant_name": "The Polo Bar",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/4/19595004/e86829a91aec308023f7ce328d813b13.jpeg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian", "veg"],
+      "rating": 2.8,
+      "votes": 56,
+      "cost_for_one": 100,
+      "cost_for_two": 170,
+      "payment_method": {
+        "card": true,
+        "cash": false,
+        "upi": true
+      },
+      "review": 150
+    },
+    {
+      "restaurant_name": "Le Bernardin",
+      "image": "https://b.zmtcdn.com/data/reviews_photos/a4d/40a35344734d1100c43c7bd029c86a4d_1575392041.jpg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 4.9,
+      "votes": 1756,
+      "cost_for_one": 340,
+      "cost_for_two": 600,
+      "payment_method": {
+        "card": false,
+        "cash": true,
+        "upi": false
+      },
+      "review": 1145
+    },
+    {
+      "restaurant_name": "Roister Restaurant",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/0/19630630/9567dd2ae737923cb44c0f6e3af78306.jpg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 2.4,
+      "votes": 886,
+      "cost_for_one": 1000,
+      "cost_for_two": 1900,
+      "payment_method": {
+        "card": false,
+        "cash": false,
+        "upi": true
+      },
+      "review": 45
+    },
+    {
+      "restaurant_name": "lemonchilli",
+      "image": "https://b.zmtcdn.com/data/reviews_photos/865/049469fff8fb6d45572c79b54bbe6865_1607960130.jpg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian", "contiental"],
+      "rating": 3.8,
+      "votes": 96,
+      "cost_for_one": 1300,
+      "cost_for_two": 2500,
+      "payment_method": {
+        "card": true,
+        "cash": true,
+        "upi": true
+      },
+      "review": 1459
+    },
+    {
+      "restaurant_name": "idliexpress",
+      "image": "https://b.zmtcdn.com/data/collections/0b77b6d90a667897f62c6b87652ef12d_1626262975.jpg?output-format=webp",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 3.6,
+      "votes": 300,
+      "cost_for_one": 850,
+      "cost_for_two": 1600,
+      "payment_method": {
+        "card": false,
+        "cash": true,
+        "upi": false
+      },
+      "review": 145
+    },
+    {
+      "restaurant_name": "sivaram",
+      "image": "https://b.zmtcdn.com/data/pictures/8/20056888/9c37751eb8984e6f23a2ba030c24fc46.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 4.3,
+      "votes": 756,
+      "cost_for_one": 1100,
+      "cost_for_two": 2200,
+      "payment_method": {
+        "card": true,
+        "cash": false,
+        "upi": true
+      },
+      "review": 1451
+    },
+    {
+      "restaurant_name": "simna",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/6/18672816/24e53bdd738ae019eab1eaa03dafe9b1.jpeg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 3.9,
+      "votes": 16,
+      "cost_for_one": 400,
+      "cost_for_two": 750,
+      "payment_method": {
+        "card": true,
+        "cash": true,
+        "upi": true
+      },
+      "review": 45
+    },
+    {
+      "restaurant_name": "farmvilla",
+      "image": "https://b.zmtcdn.com/data/pictures/4/19294864/4e66da306f49cc1cf82bfb386b2e2513.jpg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 4.6,
+      "votes": 116,
+      "cost_for_one": 340,
+      "cost_for_two": 600,
+      "payment_method": {
+        "card": true,
+        "cash": false,
+        "upi": true
+      },
+      "review": 95
+    },
+    {
+      "restaurant_name": "greenresort",
+      "image": "https://b.zmtcdn.com/data/pictures/4/18787924/afe44a03ecd0fc3f3d89f151d95604fb.jpg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+      "category": ["desert", "chinese", "northindian"],
+      "rating": 5.0,
+      "votes": 568,
+      "cost_for_one": 850,
+      "cost_for_two": 1600,
+      "payment_method": {
+        "card": false,
+        "cash": true,
+        "upi": false
+      },
+      "review": 556
+    }
+  ]
+}
