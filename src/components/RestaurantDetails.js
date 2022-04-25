@@ -7,7 +7,7 @@ const RestaurantDetails = () => {
   //function for fetch
 
   const fetchFun = async () => {
-    let ans = await fetch(" http://localhost:8000/fooddata");
+    let ans = await fetch(" https://swiggydbjson.herokuapp.com/fooddata");
     let res = await ans.json();
     return res;
   };
@@ -158,7 +158,6 @@ const RestaurantDetails = () => {
           </div>
         </div>
 
-        <div className="rightcont"></div>
         <div className="smallcont">
           {data.map((item, i) => (
             <div key={i} className="box">

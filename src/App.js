@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <div className="App">
+      <h1>hii</h1>
       <Navbar />
       {/* <h1 style={{ textAlign: "center" }}>Hungry Food</h1> */}
       <RestaurantDetails />
